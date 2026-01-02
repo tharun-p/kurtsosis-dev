@@ -1,0 +1,281 @@
+Starlark code successfully run. Output was:
+{
+	"all_participants": [
+		{
+			"cl_context": {
+				"beacon_grpc_url": "",
+				"beacon_http_url": "http://cl-1-lighthouse-geth:4000",
+				"beacon_service_name": "cl-1-lighthouse-geth",
+				"cl_nodes_metrics_info": [
+					{
+						"config": {
+							"labels": null,
+							"scrape_interval": "15s"
+						},
+						"name": "cl-1-lighthouse-geth",
+						"path": "/metrics",
+						"url": "cl-1-lighthouse-geth:5054"
+					}
+				],
+				"client_name": "lighthouse",
+				"enr": "enr:-Ou4QMMHZ8sFrCkNhubqZKsrUzXOCPZueIph-v2VtssGNTBMGG3G2C--oVXAAiH5XlVub_yBoXohRkB6XDJMLvAyxTkDh2F0dG5ldHOIAAAAAAMAAACDY2djBIZjbGllbnTRikxpZ2h0aG91c2WFOC4wLjGEZXRoMpClGtmXcAAAOP__________gmlkgnY0gmlwhKwQCAuDbmZkhKUa2ZeEcXVpY4IjKYlzZWNwMjU2azGhAxYL8cpjOYlqISp8C5jf9AwS_YacfJhZxgt4e8IXcAqPiHN5bmNuZXRzAIN0Y3CCIyiDdWRwgiMo",
+				"http_port": 4000,
+				"ip_addr": "cl-1-lighthouse-geth",
+				"ip_address": "172.16.8.11",
+				"multiaddr": "/ip4/172.16.8.11/tcp/9000/p2p/16Uiu2HAmE93tDBw2zMWDPAiVb6ZjfhtNc2dMr8VNiw33Xi4DUWwg",
+				"peer_id": "16Uiu2HAmE93tDBw2zMWDPAiVb6ZjfhtNc2dMr8VNiw33Xi4DUWwg",
+				"snooper_el_engine_context": null,
+				"snooper_enabled": false,
+				"supernode": false,
+				"validator_keystore_files_artifact_uuid": "1-lighthouse-geth-0-127"
+			},
+			"cl_type": "lighthouse",
+			"el_context": {
+				"client_name": "geth",
+				"dns_name": "el-1-geth-lighthouse",
+				"el_metrics_info": [
+					{
+						"config": {
+							"labels": null,
+							"scrape_interval": "15s"
+						},
+						"name": "el-1-geth-lighthouse",
+						"path": "/debug/metrics/prometheus",
+						"url": "el-1-geth-lighthouse:9001"
+					}
+				],
+				"engine_rpc_port_num": 8551,
+				"enode": "enode://d65371c6d7279a2978f4ee896f8c913c1b5e3bcf487dab3b0865a40943dd1dba1edc1b4a23c0948b8ac81d5fc2c08d2447d80aaa1a8a539f665223f93a3b5584@172.16.8.10:30303",
+				"enr": "enr:-KO4QJj1ZYswTD9muDAIKO9iK96714FOkMK08p0cCGoB0XgJSZhNBG8IP75a8VZO_6_ETBI9yws_hUmD7hqQtH-FGQOGAZt7Ntflg2V0aMfGhGce7kWAgmlkgnY0gmlwhKwQCAqJc2VjcDI1NmsxoQLWU3HG1yeaKXj07olvjJE8G147z0h9qzsIZaQJQ90duoRzbmFwwIN0Y3CCdl-DdWRwgnZf",
+				"ip_addr": "172.16.8.10",
+				"rpc_http_url": "http://el-1-geth-lighthouse:8545",
+				"rpc_port_num": 8545,
+				"service_name": "el-1-geth-lighthouse",
+				"ws_port_num": 8546,
+				"ws_url": "ws://el-1-geth-lighthouse:8546"
+			},
+			"el_type": "geth",
+			"ethereum_metrics_exporter_context": null,
+			"remote_signer_context": null,
+			"remote_signer_type": "web3signer",
+			"snooper_beacon_context": null,
+			"snooper_el_engine_context": null,
+			"snooper_el_rpc_context": null,
+			"vc_context": {
+				"client_name": "lighthouse",
+				"metrics_info": {
+					"config": {
+						"labels": null,
+						"scrape_interval": "15s"
+					},
+					"name": "vc-1-geth-lighthouse",
+					"path": "/metrics",
+					"url": "vc-1-geth-lighthouse:8080"
+				},
+				"service_name": "vc-1-geth-lighthouse"
+			},
+			"vc_type": "lighthouse",
+			"xatu_sentry_context": null
+		}
+	],
+	"final_genesis_timestamp": "1767298776",
+	"genesis_validators_root": "0xd1ec305b97bf6336571c2348e4a8bf173684b0cdb7e55f7e6554d51f8478b5a3",
+	"network_id": "3151908",
+	"network_params": {
+		"additional_mnemonics": [],
+		"additional_preloaded_contracts": {},
+		"aggregate_due_bps_gloas": 5000,
+		"altair_fork_epoch": 0,
+		"attestation_due_bps_gloas": 2500,
+		"base_fee_update_fraction_electra": 5007716,
+		"bellatrix_fork_epoch": 0,
+		"bpo_1_base_fee_update_fraction": 8346193,
+		"bpo_1_epoch": 0,
+		"bpo_1_max_blobs": 15,
+		"bpo_1_target_blobs": 10,
+		"bpo_2_base_fee_update_fraction": 11684671,
+		"bpo_2_epoch": 18446744073709551615,
+		"bpo_2_max_blobs": 21,
+		"bpo_2_target_blobs": 14,
+		"bpo_3_base_fee_update_fraction": 0,
+		"bpo_3_epoch": 18446744073709551615,
+		"bpo_3_max_blobs": 0,
+		"bpo_3_target_blobs": 0,
+		"bpo_4_base_fee_update_fraction": 0,
+		"bpo_4_epoch": 18446744073709551615,
+		"bpo_4_max_blobs": 0,
+		"bpo_4_target_blobs": 0,
+		"bpo_5_base_fee_update_fraction": 0,
+		"bpo_5_epoch": 18446744073709551615,
+		"bpo_5_max_blobs": 0,
+		"bpo_5_target_blobs": 0,
+		"capella_fork_epoch": 0,
+		"churn_limit_quotient": 65536,
+		"contribution_due_bps_gloas": 5000,
+		"custody_requirement": 4,
+		"data_column_sidecar_subnet_count": 128,
+		"deneb_fork_epoch": 0,
+		"deposit_contract_address": "0x4242424242424242424242424242424242424242",
+		"devnet_repo": "ethpandaops",
+		"eip7441_fork_epoch": 18446744073709551615,
+		"eip7805_fork_epoch": 18446744073709551615,
+		"ejection_balance": 16000000000,
+		"electra_fork_epoch": 0,
+		"eth1_follow_distance": 2048,
+		"force_snapshot_sync": false,
+		"fulu_fork_epoch": 0,
+		"gas_limit": 0,
+		"genesis_delay": 20,
+		"genesis_gaslimit": 60000000,
+		"genesis_time": 0,
+		"gloas_fork_epoch": 18446744073709551615,
+		"inclusion_list_submission_due_bps": 6667,
+		"max_blobs_per_block_electra": 9,
+		"max_payload_size": 10485760,
+		"max_per_epoch_activation_churn_limit": 8,
+		"max_request_blob_sidecars_electra": 1152,
+		"max_request_blocks_deneb": 128,
+		"min_epochs_for_block_requests": 33024,
+		"min_epochs_for_data_column_sidecars_requests": 4096,
+		"min_validator_withdrawability_delay": 256,
+		"network": "kurtosis",
+		"network_id": "3151908",
+		"network_sync_base_url": "https://snapshots.ethpandaops.io/",
+		"num_validator_keys_per_node": 128,
+		"payload_attestation_due_bps": 7500,
+		"perfect_peerdas_enabled": false,
+		"prefunded_accounts": {},
+		"preregistered_validator_count": 0,
+		"preregistered_validator_keys_mnemonic": "giant issue aisle success illegal bike spike question tent bar rely arctic volcano long crawl hungry vocal artwork sniff fantasy very lucky have athlete",
+		"preset": "mainnet",
+		"proposer_inclusion_list_cutoff_bps": 9167,
+		"samples_per_slot": 8,
+		"seconds_per_slot": 12,
+		"shadowfork_block_height": "latest",
+		"shard_committee_period": 256,
+		"slot_duration_ms": 12000,
+		"sync_message_due_bps_gloas": 2500,
+		"target_blobs_per_block_electra": 6,
+		"validator_balance": 32,
+		"view_freeze_cutoff_bps": 7500,
+		"withdrawal_address": "0x8943545177806ED17B9F23F0a21ee5948eCaa776",
+		"withdrawal_type": "0x00"
+	},
+	"pre_funded_accounts": [
+		{
+			"address": "0x8943545177806ED17B9F23F0a21ee5948eCaa776",
+			"private_key": "bcdf20249abf0ed6d944c0288fad489e33f66b3960d9e6229c1cd214ed3bbe31"
+		},
+		{
+			"address": "0xE25583099BA105D9ec0A67f5Ae86D90e50036425",
+			"private_key": "39725efee3fb28614de3bacaffe4cc4bd8c436257e2c8bb887c4b5c4be45e76d"
+		},
+		{
+			"address": "0x614561D2d143621E126e87831AEF287678B442b8",
+			"private_key": "53321db7c1e331d93a11a41d16f004d7ff63972ec8ec7c25db329728ceeb1710"
+		},
+		{
+			"address": "0xf93Ee4Cf8c6c40b329b0c0626F28333c132CF241",
+			"private_key": "ab63b23eb7941c1251757e24b3d2350d2bc05c3c388d06f8fe6feafefb1e8c70"
+		},
+		{
+			"address": "0x802dCbE1B1A97554B4F50DB5119E37E8e7336417",
+			"private_key": "5d2344259f42259f82d2c140aa66102ba89b57b4883ee441a8b312622bd42491"
+		},
+		{
+			"address": "0xAe95d8DA9244C37CaC0a3e16BA966a8e852Bb6D6",
+			"private_key": "27515f805127bebad2fb9b183508bdacb8c763da16f54e0678b16e8f28ef3fff"
+		},
+		{
+			"address": "0x2c57d1CFC6d5f8E4182a56b4cf75421472eBAEa4",
+			"private_key": "7ff1a4c1d57e5e784d327c4c7651e952350bc271f156afb3d00d20f5ef924856"
+		},
+		{
+			"address": "0x741bFE4802cE1C4b5b00F9Df2F5f179A1C89171A",
+			"private_key": "3a91003acaf4c21b3953d94fa4a6db694fa69e5242b2e37be05dd82761058899"
+		},
+		{
+			"address": "0xc3913d4D8bAb4914328651C2EAE817C8b78E1f4c",
+			"private_key": "bb1d0f125b4fb2bb173c318cdead45468474ca71474e2247776b2b4c0fa2d3f5"
+		},
+		{
+			"address": "0x65D08a056c17Ae13370565B04cF77D2AfA1cB9FA",
+			"private_key": "850643a0224065ecce3882673c21f56bcf6eef86274cc21cadff15930b59fc8c"
+		},
+		{
+			"address": "0x3e95dFbBaF6B348396E6674C7871546dCC568e56",
+			"private_key": "94eb3102993b41ec55c241060f47daa0f6372e2e3ad7e91612ae36c364042e44"
+		},
+		{
+			"address": "0x5918b2e647464d4743601a865753e64C8059Dc4F",
+			"private_key": "daf15504c22a352648a71ef2926334fe040ac1d5005019e09f6c979808024dc7"
+		},
+		{
+			"address": "0x589A698b7b7dA0Bec545177D3963A2741105C7C9",
+			"private_key": "eaba42282ad33c8ef2524f07277c03a776d98ae19f581990ce75becb7cfa1c23"
+		},
+		{
+			"address": "0x4d1CB4eB7969f8806E2CaAc0cbbB71f88C8ec413",
+			"private_key": "3fd98b5187bf6526734efaa644ffbb4e3670d66f5d0268ce0323ec09124bff61"
+		},
+		{
+			"address": "0xF5504cE2BcC52614F121aff9b93b2001d92715CA",
+			"private_key": "5288e2f440c7f0cb61a9be8afdeb4295f786383f96f5e35eb0c94ef103996b64"
+		},
+		{
+			"address": "0xF61E98E7D47aB884C244E39E031978E33162ff4b",
+			"private_key": "f296c7802555da2a5a662be70e078cbd38b44f96f8615ae529da41122ce8db05"
+		},
+		{
+			"address": "0xf1424826861ffbbD25405F5145B5E50d0F1bFc90",
+			"private_key": "bf3beef3bd999ba9f2451e06936f0423cd62b815c9233dd3bc90f7e02a1e8673"
+		},
+		{
+			"address": "0xfDCe42116f541fc8f7b0776e2B30832bD5621C85",
+			"private_key": "6ecadc396415970e91293726c3f5775225440ea0844ae5616135fd10d66b5954"
+		},
+		{
+			"address": "0xD9211042f35968820A3407ac3d80C725f8F75c14",
+			"private_key": "a492823c3e193d6c595f37a18e3c06650cf4c74558cc818b16130b293716106f"
+		},
+		{
+			"address": "0xD8F3183DEF51A987222D845be228e0Bbb932C222",
+			"private_key": "c5114526e042343c6d1899cad05e1c00ba588314de9b96929914ee0df18d46b2"
+		},
+		{
+			"address": "0xafF0CA253b97e54440965855cec0A8a2E2399896",
+			"private_key": "04b9f63ecf84210c5366c66d68fa1f5da1fa4f634fad6dfc86178e4d79ff9e59"
+		}
+	]
+}
+
+
+========================================= Files Artifacts =========================================
+UUID           Name
+7b231f0e9baa   1-lighthouse-geth-0-127
+4ac086f52360   el_cl_genesis_data
+ad8b27807e67   final-genesis-timestamp
+bbb9569a209f   genesis-el-cl-env-file
+8d10fa1c39a8   genesis_validators_root
+c8928feed0f4   jwt_file
+7e8c1bd3397c   keymanager_file
+ef38c5e5eec6   prysm-password
+459f47fb6c75   validator-ranges
+
+========================================== User Services ==========================================
+UUID           Name                                             Ports                                         Status
+35f120dbad49   cl-1-lighthouse-geth                             http: 4000/tcp -> http://127.0.0.1:64204      RUNNING
+                                                                metrics: 5054/tcp -> http://127.0.0.1:64203   
+                                                                quic-discovery: 9001/udp                      
+                                                                tcp-discovery: 9000/tcp -> 127.0.0.1:64202    
+                                                                udp-discovery: 9000/udp                       
+52a11821f980   el-1-geth-lighthouse                             engine-rpc: 8551/tcp -> 127.0.0.1:64200       RUNNING
+                                                                metrics: 9001/tcp -> http://127.0.0.1:64196   
+                                                                rpc: 8545/tcp -> 127.0.0.1:64198              
+                                                                tcp-discovery: 30303/tcp -> 127.0.0.1:64197   
+                                                                udp-discovery: 30303/udp                      
+                                                                ws: 8546/tcp -> 127.0.0.1:64199               
+9bd65ed9fbc2   validator-key-generation-cl-validator-keystore   <none>                                        RUNNING
+fd48c5c9d63b   vc-1-geth-lighthouse                             metrics: 8080/tcp -> http://127.0.0.1:64205   RUNNING
+
+Enclave name - billowing-caldera

@@ -1,0 +1,31 @@
+cast balance --ether --rpc-url http://0.0.0.0:64198 0xafF0CA253b97e54440965855cec0A8a2E2399896
+
+cast send --rpc-url http://0.0.0.0:64198 \
+  --private-key 04b9f63ecf84210c5366c66d68fa1f5da1fa4f634fad6dfc86178e4d79ff9e59 \
+  --value 32ether \
+  0x4242424242424242424242424242424242424242 \
+  "deposit(bytes,bytes,bytes,bytes32)" \
+  97ba76e13476722ab6f79bab5e797ad25d778eab6ca720202b99dfb694b96c65a58b28f1bf4fba6a618f55d68b886e1f \
+  020000000000000000000000aff0ca253b97e54440965855cec0a8a2e2399896 \
+  a26248eeb38b314f328a7f9fc6c8bb99f29e92a5a2e2d0839fc9293cf54df2447d5e1a9291586ad19d29914123a9a91a1847c617df44ae0fb7228ff418e65e92aecc212d0d8886d25a26497cc8606d29c1d97b2a0a6e8d702acdd1273baed17c \
+  f0b6b9c086e80830337dffcef63c3237ab6ce46fabc668e3d83fa5e95cafd476
+
+
+
+  - Response in Pending Deposit Queue
+  {
+    "version": "fulu",
+    "execution_optimistic": false,
+    "finalized": false,
+    "data": [
+        {
+            "pubkey": "0x97ba76e13476722ab6f79bab5e797ad25d778eab6ca720202b99dfb694b96c65a58b28f1bf4fba6a618f55d68b886e1f",
+            "withdrawal_credentials": "0x020000000000000000000000aff0ca253b97e54440965855cec0a8a2e2399896",
+            "amount": "32000000000",
+            "signature": "0xa26248eeb38b314f328a7f9fc6c8bb99f29e92a5a2e2d0839fc9293cf54df2447d5e1a9291586ad19d29914123a9a91a1847c617df44ae0fb7228ff418e65e92aecc212d0d8886d25a26497cc8606d29c1d97b2a0a6e8d702acdd1273baed17c",
+            "slot": "447"
+        }
+    ]
+}
+
+curl http://127.0.0.1:4000/eth/v1/beacon/states/head/validators | grep "pending"

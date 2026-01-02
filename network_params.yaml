@@ -1,0 +1,13 @@
+# network_params.yaml
+participants:
+  - el_type: geth                        # Changed from el_client_type
+    el_image: ethereum/client-go:latest  # Changed from el_client_image
+    cl_type: lighthouse                  # Changed from cl_client_type
+    cl_image: sigp/lighthouse:latest     # Changed from cl_client_image
+    count: 1
+    validator_count: 128
+
+network_params:
+  network_id: "3151908"
+  deposit_contract_address: "0x4242424242424242424242424242424242424242"
+  seconds_per_slot: 12

@@ -1,0 +1,12 @@
+eth2-val-tools deposit-data \
+--fork-version 0x10000038 \
+--source-min=64 \
+--source-max=65  \
+--as-json-list \
+--validators-mnemonic "zero suffer winner orbit zero armed minute side artist spoil wide lady solid wire slice innocent field estate squirrel universe journey rich moon finger" \
+--withdrawal-credentials-type=0x02 \
+--withdrawal-address=0xafF0CA253b97e54440965855cec0A8a2E2399896
+
+[
+{"account":"m/12381/3600/64/0/0","deposit_data_root":"f0b6b9c086e80830337dffcef63c3237ab6ce46fabc668e3d83fa5e95cafd476","pubkey":"97ba76e13476722ab6f79bab5e797ad25d778eab6ca720202b99dfb694b96c65a58b28f1bf4fba6a618f55d68b886e1f","signature":"a26248eeb38b314f328a7f9fc6c8bb99f29e92a5a2e2d0839fc9293cf54df2447d5e1a9291586ad19d29914123a9a91a1847c617df44ae0fb7228ff418e65e92aecc212d0d8886d25a26497cc8606d29c1d97b2a0a6e8d702acdd1273baed17c","value":32000000000,"version":1,"withdrawal_credentials":"020000000000000000000000aff0ca253b97e54440965855cec0a8a2e2399896"}
+]
